@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="row g-4">
                     <div className="col-lg-6 col-12">
                         <div className="image-footer">
-                            <img src="/images/Group 1342.png" className="img-responsive w-100" alt="" />
+                            <img src="/images/a.png" className="img-responsive w-100" alt="" />
                             <div className="image-backg"></div>
                             <div className="emoticon d-flex flex-column justify-content-center align-items-center">
                                 <h1 className="emoticon-title">
@@ -37,7 +37,7 @@ const Footer = () => {
                             </p>
                             <div className="info-footer__TravProfile d-flex">
 
-                                <img src="/images/group 1345.png" className="object-fit-contain" alt="" />
+                                <img src="/images/profile.png" className="object-fit-contain" alt="" />
                                 <div className='d-flex flex-column ms-3'>
                                     <div className='d-flex data align-items-baseline'>
                                         <h1 className="name">Theresa Mazzie</h1>
