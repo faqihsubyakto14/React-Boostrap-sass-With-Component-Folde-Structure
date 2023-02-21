@@ -14,11 +14,11 @@ const Footer = () => {
                                     How your experience?
                                 </h1>
                                 <div className="emoticon-icon d-flex">
-                                    <img src="/images/icon1.png" alt="" />
-                                    <img src="/images/icon2.png" alt="" />
-                                    <img src="/images/icon3.png" alt="" />
-                                    <img src="/images/icon4.png" alt="" />
-                                    <img src="/images/icon5.png" alt="" />
+                                    <img src="/images/Icon1.png" alt="" />
+                                    <img src="/images/Icon2.png" alt="" />
+                                    <img src="/images/Icon3.png" alt="" />
+                                    <img src="/images/Icon4.png" alt="" />
+                                    <img src="/images/Icon5.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -36,8 +36,7 @@ const Footer = () => {
                                 industry's standard dummy text ever since the 1500s”
                             </p>
                             <div className="info-footer__TravProfile d-flex">
-
-                                <img src="/images/profile.png" className="object-fit-contain" alt="" />
+                                <img src="/images/Profile.png" className="object-fit-contain" alt="" />
                                 <div className='d-flex flex-column ms-3'>
                                     <div className='d-flex data align-items-baseline'>
                                         <h1 className="name">Theresa Mazzie</h1>
