@@ -1,0 +1,258 @@
+.navbar .navbar-brand {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 38px !important;
+  line-height: 52px !important;
+  color: #ffffff !important;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-brand {
+    font-size: 20px !important;
+  }
+}
+.navbar .navbar-toggler {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-nav .nav-item:hover {
+    background-color: #ffffff;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bbbdc3 !important;
+  font-family: "Nunito", sans-serif;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: black !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+}
+.navbar .nav-button {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .nav-button .btn:nth-child(2) {
+  width: 114px;
+  height: 48px;
+  background: #4086f5;
+  border-radius: 12px;
+}
+
+.Trip .Intro-trip {
+  margin-bottom: 56px;
+}
+.Trip .Intro-trip__note {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3258e8;
+}
+.Trip .Intro-trip__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #232631;
+}
+.Trip .Intro-trip__ButtonMenu {
+  height: 67px;
+  background-color: white;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.Trip .Intro-trip__ButtonMenu .btn {
+  width: 87px;
+  height: 43px;
+  color: #3258e8;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.Trip .Intro-trip__ButtonMenu .btn:nth-child(1) {
+  color: #ffffff;
+}
+
+.Trip .card-trip {
+  border-radius: 24px;
+}
+.Trip .card-trip__info {
+  margin-top: 16px;
+}
+.Trip .card-trip__info .btn {
+  width: 77px;
+  height: 31px;
+  background: rgba(50, 88, 232, 0.1);
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #3258e8;
+}
+.Trip .card-trip__info___stars svg {
+  margin-left: 6px !important;
+}
+.Trip .card-trip__place {
+  margin: 12px 0 36px 0;
+}
+.Trip .card-trip__place___name {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #232631;
+}
+.Trip .card-trip__place___location {
+  margin-top: 4px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #848484;
+}
+.Trip .card-trip__buttons button:nth-child(1) {
+  width: 168px;
+  height: 48px;
+  background: #3258e8;
+  border-radius: 12px;
+}
+.Trip .card-trip__buttons .btn:nth-child(1) {
+  color: #ffffff;
+}
+.Trip .card-trip__buttons .btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #3258e8;
+}
+
+footer {
+  padding: 100px 0;
+}
+footer .image-footer {
+  position: relative;
+}
+footer .image-footer .image-backg {
+  border-radius: 40%;
+  height: 400px;
+  width: 400px;
+  margin-top: -450px;
+  background-color: #ebeffd;
+  position: absolute !important;
+  z-index: -1;
+}
+footer .image-footer img {
+  z-index: 999;
+}
+footer .image-footer .emoticon {
+  margin-top: -100px;
+  width: 349px;
+  height: 178px;
+  border-radius: 24px;
+  position: relative;
+  background-color: white !important;
+}
+footer .image-footer .emoticon-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232631;
+}
+footer .info-footer__note {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #3258e8;
+}
+footer .info-footer__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: #232631;
+  margin: 6px 0 30px 0;
+}
+footer .info-footer__desc {
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #848484;
+}
+footer .info-footer__TravProfile {
+  margin-bottom: 56px;
+}
+footer .info-footer__TravProfile .data .name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #232631;
+}
+footer .info-footer__TravProfile .data .action {
+  margin-left: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #848484;
+}
+footer .info-footer__TravProfile .stars {
+  margin-top: -10px;
+}
+footer .info-footer__btn .btn {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+footer .info-footer__btn button {
+  position: absolute;
+  width: 144px;
+  height: 48px;
+  background: #3258e8;
+  border-radius: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

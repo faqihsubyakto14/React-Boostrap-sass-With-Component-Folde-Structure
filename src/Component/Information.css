@@ -1,0 +1,127 @@
+.information {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.information img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.content {
+  visibility: hidden;
+  left: 0;
+}
+
+.information-info .note {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3258e8;
+}
+
+.information-info .Intro-info .Intro-info__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #232631;
+}
+
+.information-info .Intro-info .Intro-info__desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #848484;
+}
+
+.information-company {
+  margin: 20px 0;
+}
+
+.information-company .item:nth-child(1) {
+  margin-left: 0;
+}
+
+.information-company .item {
+  margin-left: 26px;
+}
+
+.item .number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #232631;
+}
+
+.item .desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #848484;
+}
+
+.info-btn .btn {
+  width: 157px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.info-btn button:nth-child(1) {
+  background: #3258e8;
+  border-radius: 12px;
+}
+.info-btn button:nth-child(2) {
+  color: #7b7b7b;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .information {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .information-info {
+    margin-top: 20px;
+  }
+
+  .information img {
+    width: 100% !important;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .info-btn .btn {
+    display: block !important;
+    width: 100%;
+  }
+
+  .information-info span {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .information img {
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}

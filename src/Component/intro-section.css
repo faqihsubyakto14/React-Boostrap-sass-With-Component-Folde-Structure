@@ -1,0 +1,55 @@
+.Intro-section {
+  background-image: url(../../public/images/img.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Intro-section .intros {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.Intro-section .intros .intros__note {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #2e313a;
+}
+
+.Intro-section .intros .intros__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 78px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .Intro-section {
+    height: 50vh;
+  }
+  .Intro-section .intros .intros__note {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #2e313a;
+  }
+  .Intro-section .intros .intros__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,105 @@
+footer {
+  padding: 100px 0;
+  .image-footer {
+    position: relative;
+    .image-backg {
+      border-radius: 40%;
+      height: 400px;
+      width: 400px;
+      margin-top: -450px;
+      background-color: #ebeffd;
+      position: absolute !important;
+      z-index: -1;
+    }
+    img {
+      z-index: 999;
+    }
+    .emoticon {
+      margin-top: -100px;
+      width: 349px;
+      height: 178px;
+      border-radius: 24px;
+      position: relative;
+      background-color: white !important;
+      &-title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #232631;
+      }
+    }
+  }
+  .info-footer {
+    &__note {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      color: #3258e8;
+    }
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      text-transform: capitalize;
+      color: #232631;
+      margin: 6px 0 30px 0;
+    }
+    &__desc {
+      margin-bottom: 20px;
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #848484;
+    }
+    &__TravProfile {
+      margin-bottom: 56px;
+      .data {
+        .name {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 30px;
+          text-transform: capitalize;
+          color: #232631;
+        }
+        .action {
+          margin-left: 5px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          text-transform: capitalize;
+          color: #848484;
+        }
+      }
+      .stars {
+        margin-top: -10px;
+      }
+    }
+    &__btn {
+      .btn {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 16px;
+        color: #ffffff;
+      }
+      button {
+        position: absolute;
+        width: 144px;
+        height: 48px;
+        background: #3258e8;
+        border-radius: 12px;
+      }
+    }
+  }
+}
